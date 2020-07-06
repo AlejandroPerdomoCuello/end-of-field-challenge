@@ -21,6 +21,7 @@ body {
     padding-left: 73px;
     padding-right: 165px;
     font-family: 'Poppins', sans-serif;
+    border-radius: 16px;
 }
 
 .top {
@@ -52,8 +53,9 @@ button {
     font-weight: 600;
     margin-top: 18px;
     margin-left: 24px;
+    margin-bottom: 18px;
 }
-*/
+/*
 .backgroundimage {
     width: 850px;
     height: 692px;
