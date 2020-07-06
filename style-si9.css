@@ -2,58 +2,61 @@ body {
 }
 
 .container {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     top: 0;
     left: 0;
     margin: 0em;
     background-color: black;
-    width: 850px;
-    height: 692px;
-    padding: 25px 25px;
+    width: 425px;
+    height: 346px;
+    /*padding: 14px 12px;*/
+    padding-top: 14px;
+    padding-right: 12px;
+    padding-bottom: 14px;
+    padding-left: 12px;
 }
 
 .area {
-    width: calc (850px - 25px);
-    height: calc (692px - 25px);
-    padding: 25px 25px;
+    width: calc (425px -12px - 12px);
+    height: calc (336px 14px - 14px);
+   /* box-sizing: border-box;*/
     background-color: #410e9e;
     color: white;
-    padding-left: 73px;
-    padding-right: 165px;
+    padding-left: 35px;
+    padding-right: 80px;
     font-family: 'Poppins', sans-serif;
     border-radius: 16px;
 }
 
 .top {
-    padding-top: 20px;
-    padding-left: 25px;
-    font-size: 2.8rem;
+    padding-top: 37px;
+    font-size: 18px;
 }
 
 .cost {
-    margin-top: -20px;
-    padding-left: 30px;
-    font-size: 6rem;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+span {
+    font-size: 38px;
 }
 
 .info {
-    margin-top: -75px;
-    padding-left: 22px;
-    font-size: 2rem;
+    margin-top: 28px;
+    font-size: 11px;
 }
 
 button {
-    border: 2px solid #7355b9;
+    padding-top: 26px;
+    border: 1px solid #7355b9;
     background-color: #410e9e;
     color: white;
     font-family: 'IBM Plex Mono', monospace;
     border-radius: 10px;
-    padding: 27px 48px;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-top: 18px;
-    margin-left: 24px;
-    margin-bottom: 18px;
+    padding: 22px 15px;
+    font-size: 11px;
+    margin-bottom: 15px;
 }
 /*
 .backgroundimage {
