@@ -18,12 +18,12 @@ button {
     border: 1px solid #6a8858;
     margin-top: 73px;
     margin-left: 73px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 img {
@@ -46,4 +46,9 @@ p {
     word-spacing: 1px;
     font-family: 'Jost', sans-serif;
     font-size: 1.75rem;
+}
+
+span {
+    font-size: 1rem;
+    vertical-align: 16%;
 }
