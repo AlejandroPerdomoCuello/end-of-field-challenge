@@ -2,6 +2,10 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    margin: 0em;
     background-color: black;
     width: 850px;
     height: 692px;
@@ -9,6 +13,9 @@ body {
 }
 
 .area {
+    width: calc (850px - 25px);
+    height: calc (692px - 25px);
+    padding: 25px 25px;
     background-color: #410e9e;
     color: white;
     padding-left: 73px;
@@ -17,24 +24,47 @@ body {
 }
 
 .top {
-    font-size: 2rem;
-}
-
-span {
-    font-size: 5rem;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 2.8rem;
 }
 
 .cost {
-    font-size: 3rem;
+    margin-top: -20px;
+    padding-left: 30px;
+    font-size: 6rem;
 }
 
 .info {
-    font-size: 1rem;
+    margin-top: -75px;
+    padding-left: 22px;
+    font-size: 2rem;
 }
 
 button {
-    border: 1px solid #7355b9;
+    border: 2px solid #7355b9;
     background-color: #410e9e;
     color: white;
     font-family: 'IBM Plex Mono', monospace;
+    border-radius: 10px;
+    padding: 27px 48px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-left: 24px;
 }
+*/
+.backgroundimage {
+    width: 850px;
+    height: 692px;
+    background-image: url(/img/simple-interface.09.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: 10;
+    pointer-events: none;
+    box-sizing: border-box;
+    object-fit: cover;
+}*/
